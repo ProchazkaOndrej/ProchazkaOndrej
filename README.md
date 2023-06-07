@@ -10,8 +10,7 @@ def generate_music(num_notes):
      for _ in range(num_notes):
      
          random_note = random.choice(notes)
-         random_duration = random.choice(durations)
-         
+         random_duration = random.choice(durations)     
          note_obj = note.Note(random_note)
          note_obj.duration = duration.Duration(random_duration)
          
@@ -19,3 +18,4 @@ def generate_music(num_notes):
          generated_music =
          generate_music(10) generated_music.show()
 python cesta_k_souboru.py
+C:\cesta\k\programovému\souboru.exe
