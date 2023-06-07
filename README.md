@@ -18,3 +18,4 @@ def generate_music(num_notes):
          music_stream.append(note_ob
          generated_music =
          generate_music(10) generated_music.show()
+python cesta_k_souboru.py
